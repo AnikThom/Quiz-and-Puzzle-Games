@@ -33,9 +33,7 @@
   color: white;
 }
 
-.centerbutton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#container {
+text-align: center;
 }
 
