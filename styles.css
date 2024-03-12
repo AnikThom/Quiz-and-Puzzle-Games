@@ -12,23 +12,23 @@
 }
 
 .button1 {
-  background-color: white; 
+  background-color: #7d1899; 
   color: black; 
-  border: 2px solid #04AA6D;
+  border: 2px solid;
 }
 
 .button1:hover {
-  background-color: #04AA6D;
+  background-color: #270530;
   color: white;
 }
 
 .button2 {
-  background-color: white; 
+  background-color: #bd2863; 
   color: black; 
-  border: 2px solid #008CBA;
+  border: 2px solid;
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: #300516;
   color: white;
 }
