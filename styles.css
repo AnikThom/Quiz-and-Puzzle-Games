@@ -9,9 +9,6 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: center;
-}
 
 li a {
   display: block;
