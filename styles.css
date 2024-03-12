@@ -12,8 +12,9 @@
 }
 
 .button1 {
-  left: 50%
-  right: 100%
+  position: absolute;
+  left: 50%;
+  right: 100%;
   background-color: #9723ba; 
   color: black; 
   border: 2px solid;
@@ -25,8 +26,9 @@
 }
 
 .button2 {
-  left: 100%
-  right: 50%
+  position: absolute;
+  left: 100%;
+  right: 50%;
   background-color: #de3e7d; 
   color: black; 
   border: 2px solid;
