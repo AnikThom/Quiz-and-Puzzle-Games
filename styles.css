@@ -26,9 +26,6 @@
 }
 
 .button2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #de3e7d; 
   color: black; 
   border: 2px solid;
