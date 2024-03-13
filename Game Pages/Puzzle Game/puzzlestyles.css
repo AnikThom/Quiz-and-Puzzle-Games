@@ -10,13 +10,15 @@ ul {
 
 li {
   float: left;
+  display: inline-block;
 }
 
 li a {
   display: block;
-  padding: 8px;
-  background-color: #9723ba;
+  padding: 8px 16px;
+  background-color: #de3e7d;
 }
+
 a {
   color: white;
 }
@@ -26,5 +28,5 @@ a: visited {
 }
 
 a:hover {
-  color: hotpink;
+  color: #300516;
 }
