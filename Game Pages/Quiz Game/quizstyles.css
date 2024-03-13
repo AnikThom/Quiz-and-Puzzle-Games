@@ -52,22 +52,21 @@ table.center {
   box-sizing: border-box;
 }
 
-img {
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
   width: 400px;
   height: 500px;
   object-fit: contain;
-}
-
-.container {
-  width: auto;
-  height: auto;
-}
-
-.imghov {
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.container: hover .imghov {
+.container:hover .image {
   opacity: 0.3;
 }
+
