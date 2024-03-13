@@ -56,3 +56,7 @@ table.center {
   flex: 50%;
 }
 
+img {
+object-fit: contain;
+}
+
