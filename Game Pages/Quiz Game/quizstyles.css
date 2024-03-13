@@ -15,7 +15,7 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 32px 64px;
   background-color: #de3e7d;
 }
 
