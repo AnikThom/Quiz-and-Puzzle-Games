@@ -31,3 +31,28 @@ a:hover {
   color: #300516;
 }
 
+
+
+tr {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
