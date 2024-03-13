@@ -41,8 +41,7 @@ h2 {
 }
 
 .container { 
-  width: auto;
-  height: auto;
+  height: 500px;
   position: relative;
 }
 
