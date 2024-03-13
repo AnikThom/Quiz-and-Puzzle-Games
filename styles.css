@@ -41,7 +41,7 @@ h2 {
 }
 
 .container { 
-  position: absolute;
+  position: relative;
 }
 
 .center {
