@@ -58,11 +58,16 @@ img {
   object-fit: contain;
 }
 
+.container {
+  width: auto;
+  height: auto;
+}
+
 .imghov {
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.imghov: hover {
+.container: hover .imghov {
   opacity: 0.3;
 }
