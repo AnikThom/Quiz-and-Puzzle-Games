@@ -19,3 +19,15 @@ li a {
   background-color: #de3e7d;
 }
 
+a {
+  color: white;
+}
+
+a: visited {
+  color: white;
+}
+
+a: hover {
+  color:
+    }
+
