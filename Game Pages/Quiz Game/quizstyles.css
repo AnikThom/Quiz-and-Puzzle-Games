@@ -58,6 +58,7 @@ img {
   object-fit: contain;
 }
 
-.imagehover: hover img{
+.imagehover: hover img {
+  transition: .5s ease;
   opacity: 0.3;
 }
