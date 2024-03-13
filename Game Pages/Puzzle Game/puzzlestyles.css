@@ -17,3 +17,14 @@ li a {
   padding: 8px;
   background-color: #9723ba;
 }
+a {
+  color: white;
+}
+
+a: visited {
+  color: white;
+}
+
+a: hover {
+  color: #300516
+    }
