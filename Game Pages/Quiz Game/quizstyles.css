@@ -31,6 +31,9 @@ a:hover {
   color: #300516;
 }
 
+table {
+  width: 100%
+}
 
 tr {
   text-align: center;
