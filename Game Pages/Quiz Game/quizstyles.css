@@ -31,6 +31,13 @@ a:hover {
   color: #300516;
 }
 
+.container {
+  width: 25%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 tr {
