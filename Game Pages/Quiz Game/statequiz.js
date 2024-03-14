@@ -1,5 +1,5 @@
         const images = [
-
+'Game Pages/Quiz Game/USA Map.png'
         ];
      
         const container = document.getElementById('image-container');
