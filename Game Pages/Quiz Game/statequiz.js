@@ -1,7 +1,7 @@
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'images/img/Splash_image1.jpg';
+imgArray[0].src = 'Game Pages/Quiz Game/USA Map.png';
 
 var questions = [
   "USA"
