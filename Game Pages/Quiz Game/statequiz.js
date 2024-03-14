@@ -1,5 +1,5 @@
 let newImage = new Image();
-newImage.src = 'Game Pages/Quiz Game/USA Map.png';
+newImage.src = 'USA Map.png';
 
 var questions = [
   "USA"
