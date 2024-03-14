@@ -1,6 +1,7 @@
         const images = [
-'Game Pages/Quiz Game/USA Map.png'
-'Game Pages/Quiz Game/Rainbow.png'
+'USA Map.png'
+'./Game Pages/Quiz Game/Rainbow.png'
+'Game Pages/Quiz Game/Dictionary.png'
         ];
      
         const container = document.getElementById('image-container');
