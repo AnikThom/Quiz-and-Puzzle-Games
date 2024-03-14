@@ -1,6 +1,6 @@
         const images = [
-'USA Map.png'
-'./Game Pages/Quiz Game/Rainbow.png'
+'USA Map.png',
+'./Game Pages/Quiz Game/Rainbow.png',
 'Game Pages/Quiz Game/Dictionary.png'
         ];
      
