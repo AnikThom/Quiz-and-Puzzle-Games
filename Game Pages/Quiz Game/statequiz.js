@@ -1,4 +1,4 @@
-let existingImage = document.getElementById('./Game Pages/Quiz Game/USA Map.png');
+let existingImage = document.getElementById('USA Map.png');
 
 var questions = [
   "USA"
