@@ -2,6 +2,7 @@ var imgArray = new Array();
 
 imgArray[0] = new Image();
 imgArray[0].src = 'Game Pages/Quiz Game/USA Map.png';
+document.getElementById("quiz").src = imgArray.src;
 
 var questions = [
   "USA"
