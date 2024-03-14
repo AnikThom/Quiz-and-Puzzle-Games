@@ -1,7 +1,7 @@
 const images = [
         'USA Map.png'
         title: 'What State is This?'
-        description: 'What State is This?,
+        description: 'What State is This?' ,
         'Rainbow.png',
         'Dictionary.png'
 ];
