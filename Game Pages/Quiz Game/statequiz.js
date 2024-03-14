@@ -6,7 +6,7 @@ imgArray[0].src = 'Game Pages/Quiz Game/USA Map.png';
 var questions = [
   "USA"
 ];
-questions.push(existingImage);
+questions.push(imgArray);
 
 function getRandomQuestion() {
   var randomIndex = Math.floor(Math.random() * questions.length);
