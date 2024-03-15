@@ -1,93 +1,35 @@
-(function(){
-  function buildQuiz(){
-    const output = [];
+var questions = [
+  "What is the capital of Spain?",
+  "Who won the FIFA Women's World Cup in 2019?",
+  "What is the smallest country in the world?",
+  "Who invented the telephone?",
+  "What is the tallest mountain in the world?"
+];
 
-    myQuestions.forEach(
-      (currentQuestion, questionNumber) => {
+// Function to select a random question from the array
+function getRandomQuestion() {
+  var randomIndex = Math.floor(Math.random() * questions.length);
+  return questions[randomIndex];
+}
 
-        const answers = [];
+// Function to display the quiz
+function displayQuiz(maxQuestions) {
+  var quiz = document.getElementById("quiz");
+  var numQuestionsDisplayed = 0;
 
-        for(letter in currentQuestion.answers){
+  // Loop until max number of questions are displayed
+  while (numQuestionsDisplayed < maxQuestions) {
+    var question = getRandomQuestion();
 
-          answers.push(
-            `<label>
-              <input type="radio" name="question${questionNumber}" value="${letter}">
-              ${letter} :
-              ${currentQuestion.answers[letter]}
-            </label>`
-          );
-        }
+    // Add the question to the quiz
+    var questionDiv = document.createElement("div");
+    questionDiv.innerHTML = question;
+    quiz.appendChild(questionDiv);
 
-        output.push(
-          `<div class="question"> ${currentQuestion.question} </div>
-          <div class="answers"> ${answers.join('')} </div>`
-        );
-      }
-    );
-
-    quizContainer.innerHTML = output.join('');
+    // Increment the number of questions displayed
+    numQuestionsDisplayed++;
   }
+}
 
-  function showResults(){
-
-    const answerContainers = quizContainer.querySelectorAll('.answers');
-
-    let numCorrect = 0;
-
-    myQuestions.forEach( (currentQuestion, questionNumber) => {
-
-      const answerContainer = answerContainers[questionNumber];
-      const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-
-      if(userAnswer === currentQuestion.correctAnswer){
-        numCorrect++;
-
-        answerContainers[questionNumber].style.color = 'lightgreen';
-      }
-      else{
-        answerContainers[questionNumber].style.color = 'red';
-      }
-    });
-
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
-  }
-
-  const quizContainer = document.getElementById('quiz');
-  const resultsContainer = document.getElementById('results');
-  const submitButton = document.getElementById('submit');
-  const myQuestions = [
-    {
-      question: "Who invented JavaScript?",
-      answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Which one of these is a JavaScript package manager?",
-      answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    }
-  ];
-
-  buildQuiz();
-
-  submitButton.addEventListener('click', showResults);
-})();
+// Call the function to display the quiz (10 questions in this example)
+displayQuiz(10);
