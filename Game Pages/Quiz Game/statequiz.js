@@ -112,19 +112,20 @@
   image1.width = 400;
   image1.alt = "Usa Map";
   var image2 = document.createElement("img2");
-  image1.src = "Rainbow.png";
-  image1.height = 400;
-  image1.width = 400;
-  image1.alt = "Rainbow";
+  image2.src = "Rainbow.png";
+  image2.height = 400;
+  image2.width = 400;
+  image2.alt = "Rainbow";
   var image3 = document.createElement("img3");
-  image1.src = "Dictionary.png";
-  image1.height = 400;
-  image1.width = 400;
-  image1.alt = "Dictionary";
+  image3.src = "Dictionary.png";
+  image3.height = 400;
+  image3.width = 400;
+  image3.alt = "Dictionary";
+  
   const myQuestions = [
     {
       question: "Who invented JavaScript?",
-      image: "USA Map.png",
+      image: image1,
       answers: {
         a: "Crockford",
         b: "Sandberg",
@@ -134,7 +135,6 @@
     },
     {
       question: "Which one of these is a JavaScript package manager?",
-      image: "img2",
       answers: {
         a: "Node.js",
         b: "TypeScript",
