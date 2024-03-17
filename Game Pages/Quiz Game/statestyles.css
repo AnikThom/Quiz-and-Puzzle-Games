@@ -21,7 +21,13 @@ h1{
   margin-bottom: 100px;
 }
 
-.image{
+.img {
+  text-align: center;
+  position: absolute;
+  display: inherit;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 400px;
   height: 500px;
   object-fit: contain;
@@ -53,7 +59,7 @@ button{
 	padding: 20px;
 	cursor: pointer;
 	margin-bottom: 0px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 button:hover{
 
@@ -61,7 +67,6 @@ button:hover{
 
 	
 }
-
 
 .slide{
   position: absolute;
@@ -78,7 +83,7 @@ button:hover{
 }
 .quiz-container{
   position: relative;
-  height: 300px;
+  height: 600px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
@@ -86,6 +91,8 @@ button:hover{
 }
 
 input[type="radio"]{
+  position: relative;
+  top: 250px;
   width: 600px;
   height: 75px;
   cursor: pointer;
@@ -139,7 +146,7 @@ label span:first-of-type {
 
 label span {
   position: relative;
-  top: 23px;
+  top: 273px;
   right: 325px;
 }
 
