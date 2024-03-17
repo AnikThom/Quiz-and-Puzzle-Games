@@ -104,9 +104,25 @@
   // Variables
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
-  const submitButton = document.getElementById('submit');
+  const submitButton = document.getElementById('submit');  
+  var image1 = document.createElement("img1");
+  image1.src = "USA Map.png";
+  image1.height = 400;
+  image1.width = 400;
+  image1.alt = "Usa Map";
+  var image2 = document.createElement("img2");
+  image1.src = "Rainbow.png";
+  image1.height = 400;
+  image1.width = 400;
+  image1.alt = "Rainbow";
+  var image3 = document.createElement("img3");
+  image1.src = "Dictionary.png";
+  image1.height = 400;
+  image1.width = 400;
+  image1.alt = "Dictionary";
   const myQuestions = [
     {
+      myQuestions.push(img1);
       question: "Who invented JavaScript?",
       answers: {
         a: "Crockford",
