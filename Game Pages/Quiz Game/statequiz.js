@@ -109,7 +109,7 @@
     {
       
       question: "Who invented JavaScript?",
-      image:"USA_Map.png",
+      image:"USA Map.png",
       answers: {
         a: "Crockford",
         b: "Sandberg",
