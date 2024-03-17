@@ -122,8 +122,7 @@
   image1.alt = "Dictionary";
   const myQuestions = [
     {
-      myQuestions.push(img1);
-      question: "Who invented JavaScript?",
+      question: "Who invented JavaScript?" "img1",
       answers: {
         a: "Crockford",
         b: "Sandberg",
