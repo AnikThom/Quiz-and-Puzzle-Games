@@ -28,6 +28,7 @@
         output.push(
           `<div class="slide">
             <div class="question"> ${currentQuestion.question} </div>
+            <div class="image"> ${image.join} </div>
             <div class="answers"> ${answers.join("")} </div>
           </div>`
         );
@@ -122,7 +123,8 @@
   image1.alt = "Dictionary";
   const myQuestions = [
     {
-      question: "Who invented JavaScript?" "img1",
+      question: "Who invented JavaScript?",
+      image: "USA Map.png",
       answers: {
         a: "Crockford",
         b: "Sandberg",
@@ -132,6 +134,7 @@
     },
     {
       question: "Which one of these is a JavaScript package manager?",
+      image: "img2",
       answers: {
         a: "Node.js",
         b: "TypeScript",
