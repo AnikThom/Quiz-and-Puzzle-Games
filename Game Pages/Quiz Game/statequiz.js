@@ -1,51 +1,44 @@
+(function(){
   function buildQuiz(){
-
     const output = [];
-
-
     myQuestions.forEach(
       (currentQuestion, questionNumber) => {
-
+        
         const answers = [];
-
         for(letter in currentQuestion.answers){
-
           answers.push(
-
+            
             `<label>
               <input type="radio" name="question${questionNumber}" value="${letter}">
              <span> ${currentQuestion.answers[letter]} </span>
             </label>`
           );
         }
+        output.push(
+          `<div class="slide">
+            <div class="question"> ${currentQuestion.question} 
+             <img src="${currentQuestion.image}" class= "img" alt="Question Image"></div>
+            <div class="answers"> ${answers.join("")} </div>
+          </div>`
+        );
+      }
+    );
+ 
+    quizContainer.innerHTML = output.join('');
+  }
   function showResults(){
-
-
     const answerContainers = quizContainer.querySelectorAll('.answers');
-
-
     let numCorrect = 0;
-
-
     myQuestions.forEach( (currentQuestion, questionNumber) => {
-
-
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-
-
       if(userAnswer === currentQuestion.correctAnswer){
-
         numCorrect++;
-
       }
     });
-
-
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
   }
-
   function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
@@ -65,24 +58,18 @@
       submitButton.style.display = 'none';
     }
   }
-
   function showNextSlide() {
     showSlide(currentSlide + 1);
   }
-
   function showPreviousSlide() {
     showSlide(currentSlide - 1);
   }
-
   const quizContainer = document.getElementById('quiz');
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
-
-
-
   const myQuestions = [
     {
-      
+
       question: "Who invented JavaScript?",
       image:"USA_Map.png",
       answers: {
