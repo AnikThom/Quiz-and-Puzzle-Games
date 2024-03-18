@@ -1,47 +1,23 @@
-(function(){
-
   function buildQuiz(){
 
     const output = [];
-    
-    const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5).slice(0, 1);
 
-    shuffledQuestions.forEach(
+
+    myQuestions.forEach(
       (currentQuestion, questionNumber) => {
+
         const answers = [];
 
-        const shuffledAnswers = currentQuestion.answers.slice().sort(() => Math.random() - 0.5);
+        for(letter in currentQuestion.answers){
 
-        for(let i = 0; i < 3; i++){
           answers.push(
+
             `<label>
-              <input type="radio" name="question${questionNumber}" value="${shuffledAnswers[i]}">
-             <span> ${shuffledAnswers[i]} </span>
+              <input type="radio" name="question${questionNumber}" value="${letter}">
+             <span> ${currentQuestion.answers[letter]} </span>
             </label>`
           );
         }
-
-        answers.push(
-          `<label>
-              <input type="radio" name="question${questionNumber}" value="${currentQuestion.correctAnswer}">
-             <span> ${currentQuestion.correctAnswer} </span>
-            </label>`
-        );
-
-        answers.sort(() => Math.random() - 0.5);
-
-        output.push(
-          `<div class="slide">
-            <div class="question"> ${currentQuestion.question} 
-             <img src="${currentQuestion.image}" class= "img" alt="Question Image"></div>
-            <div class="answers"> ${answers.join("")} </div>
-          </div>`
-        );
-      }
-    );
-
-    quizContainer.innerHTML = output.join('');
-  }
   function showResults(){
 
 
