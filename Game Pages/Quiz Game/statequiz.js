@@ -4,7 +4,7 @@
 
     const output = [];
     
-    const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5).slice(0, 2); // Shuffle and select 10 questions
+    const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5).slice(0, 1);
 
     shuffledQuestions.forEach(
       (currentQuestion, questionNumber) => {
