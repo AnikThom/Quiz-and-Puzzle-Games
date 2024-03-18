@@ -3,31 +3,32 @@
   function buildQuiz(){
 
     const output = [];
+    
+    const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5).slice(0, 2); // Shuffle and select 10 questions
 
-
-    myQuestions.forEach(
+    shuffledQuestions.forEach(
       (currentQuestion, questionNumber) => {
-
-
-        
-
         const answers = [];
 
+        const shuffledAnswers = currentQuestion.answers.slice().sort(() => Math.random() - 0.5);
 
-
-        for(letter in currentQuestion.answers){
-
-
+        for(let i = 0; i < 3; i++){
           answers.push(
-            
             `<label>
-              <input type="radio" name="question${questionNumber}" value="${letter}">
-             <span> ${currentQuestion.answers[letter]} </span>
+              <input type="radio" name="question${questionNumber}" value="${shuffledAnswers[i]}">
+             <span> ${shuffledAnswers[i]} </span>
             </label>`
           );
         }
 
+        answers.push(
+          `<label>
+              <input type="radio" name="question${questionNumber}" value="${currentQuestion.correctAnswer}">
+             <span> ${currentQuestion.correctAnswer} </span>
+            </label>`
+        );
 
+        answers.sort(() => Math.random() - 0.5);
 
         output.push(
           `<div class="slide">
@@ -39,10 +40,8 @@
       }
     );
 
- 
     quizContainer.innerHTML = output.join('');
   }
-
   function showResults(){
 
 
