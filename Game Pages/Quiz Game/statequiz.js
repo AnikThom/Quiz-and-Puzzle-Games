@@ -114,7 +114,7 @@
         b: "Sandberg",
         c: "Eich"
       },
-      correctAnswer: "Eich"
+      correctAnswer: "c"
     },
     {
       question: "Which one of these is a JavaScript package manager?",
@@ -124,7 +124,7 @@
         b: "TypeScript",
         c: "npm"
       },
-      correctAnswer: "npm"
+      correctAnswer: "c"
     },
     {
       question: "Which tool can you use to ensure code quality?",
@@ -134,7 +134,7 @@
         c: "RequireJS",
         d: "ESLint"
       },
-      correctAnswer: "ESLint"
+      correctAnswer: "d"
     }
   ];
 
