@@ -696,8 +696,7 @@ function buildQuiz(){
 });
 
 returnButton.addEventListener('click', function() {
-    // Change the URL to the desired HTML page
-    window.location.href = './index.html'; // Replace 'path_to_your_html_page.html' with the actual path
+    window.location.href = 'quizgame.html';
 });
   
   previousButton.addEventListener("click", showPreviousSlide);
