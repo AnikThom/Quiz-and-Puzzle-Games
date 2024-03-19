@@ -690,7 +690,7 @@ function buildQuiz(){
 });
 
 returnButton.addEventListener('click', function() {
-    window.location.href = './Game Pages/Quiz Game/quizgame.html';
+    window.location.href = './quizgame.html';
 });
   
   previousButton.addEventListener("click", showPreviousSlide);
