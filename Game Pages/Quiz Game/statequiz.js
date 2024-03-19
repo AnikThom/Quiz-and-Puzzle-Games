@@ -5,11 +5,9 @@ let numCorrect = 0;
 
 function buildQuiz(){
     const output = [];
-    
-    // Shuffle the questions
+
     const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5);
-    
-    // Select only the first 10 shuffled questions
+
     selectedQuestions = shuffledQuestions.slice(0, 1);
 
     selectedQuestions.forEach((currentQuestion, questionNumber) => {
@@ -675,9 +673,6 @@ function buildQuiz(){
       "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],
       correctAnswer: "Wyoming"
     }
-
-
-
   ];
 
   buildQuiz();
@@ -689,7 +684,6 @@ function buildQuiz(){
 
   showSlide(currentSlide);
 
-  
   submitButton.addEventListener('click', function() {
     showResults();
     showNextSlide();
