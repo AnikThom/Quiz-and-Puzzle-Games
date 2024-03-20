@@ -134,7 +134,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image:"./US States/AK-Arizona.png",
+      image:"./US States/AZ-Arizona.png",
       answers: ["Alabama", "Alaska", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
