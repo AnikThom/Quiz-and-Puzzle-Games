@@ -8,7 +8,7 @@ function buildQuiz(){
 
     const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5);
 
-    selectedQuestions = shuffledQuestions.slice(0, 1);
+    selectedQuestions = shuffledQuestions.slice(0, 2);
 
     selectedQuestions.forEach((currentQuestion, questionNumber) => {
         const answers = [];
