@@ -257,7 +257,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "./US States/ID-Idaho.png",
+      image: "./US States/IL-Illinois.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -268,7 +268,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/IN-Indiana.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -279,7 +279,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/IA-Iowa.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -290,7 +290,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/KS-Kansas.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -301,7 +301,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/KY-Kentucky.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -312,7 +312,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/KY-Kentucky.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -323,7 +323,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/KY-Kentucky.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -334,7 +334,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/KY-Kentucky.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
