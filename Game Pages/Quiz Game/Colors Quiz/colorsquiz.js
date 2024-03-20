@@ -122,231 +122,231 @@ function buildQuiz(){
 
   const myQuestions = [
     {
-      question: "What Color is This",
-      image:"./US States/AL-Alabama.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Anti-Flash White.png",
+      answers: ["Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Alabama"
+      correctAnswer: "Anti-Flash White"
     },
     {
-      question: "What Color is This",
-      image:"./US States/AK-Arizona.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Antique White.png",
+      answers: ["Anti-Flash White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Arizona"
+      correctAnswer: "Antique White"
     },
 
     {
-      question: "What Color is This",
-      image: "./US States/AR-Arkansas.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Atomic Tangerine.png",
+      answers: ["Anti-Flash White", "Antique White", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Arkansas"
+      correctAnswer: "Atomic Tangerine"
     },
     {
-      question: "What Color is This",
-      image: "./US States/AK-Alaska.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Black.png",
+      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Alaska"
+      correctAnswer: "Black"
         },
         
     {
-      question: "What Color is This",
-      image: "./US States/CA-California.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Byzantium.png",
+      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "California"
+      correctAnswer: "Byzantium"
     },
     {
-      question: "What Color is This",
-      image: "./US States/CO-Colorado.png",
-      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
+      question: "What Color is This?",
+      image:"./Colors/Caput Mortuum.png",
+      answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Colorado"
+      correctAnswer: "Caput Mortuum"
     },
     {
-      question: "What Color is This",
-      image: "./US States/CT-Connecticut.png",
+      question: "What Color is This?",
+      image:"./Colors/Charcoal.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Connecticut"
+      correctAnswer: "Charcoal"
     },
     {
-      question: "What Color is This",
-      image: "./US States/DE-Delaware.png",
+      question: "What Color is This?",
+      image:"./Colors/Cinereous.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Delaware"
+      correctAnswer: "Cinereous"
     },
     {
-      question: "What Color is This",
-      image: "./US States/FL-Florida.png",
+      question: "What Color is This?",
+      image:"./Colors/Columbia Blue.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Florida"
+      correctAnswer: "Columbia Blue"
     },
     {
-      question: "What Color is This",
-      image: "./US States/GA-Georgia.png",
+      question: "What Color is This?",
+      image:"./Colors/Cool Gray.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Columbia Blue", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Georgia"
+      correctAnswer: "Cool Gray"
     },
     {
-      question: "What Color is This",
-      image: "./US States/HI-Hawaii.png",
+      question: "What Color is This?",
+      image:"./Colors/Coquelicot.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Hawaii"
+      correctAnswer: "Coquelicot"
     },
     {
-      question: "What Color is This",
-      image:"./US States/ID-Idaho.png",
+      question: "What Color is This?",
+      image:"./Colors/Crimson.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Idaho"
+      correctAnswer: "Crimson"
     },
     {
-      question: "What Color is This",
-      image: "./US States/IL-Illinois.png",
+      question: "What Color is This?",
+      image:"./Colors/Dark Green.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Illinois"
+      correctAnswer: "Dark Green"
     },
     {
-      question: "What Color is This",
-      image: "./US States/IN-Indiana.png",
+      question: "What Color is This?",
+      image:"./Colors/Dark Purple.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
-        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
+        "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Indiana"
+      correctAnswer: "Dark Purple"
     },
     {
-      question: "What Color is This",
-      image: "./US States/IA-Iowa.png",
+      question: "What Color is This?",
+      image:"./Colors/Dun.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Iowa"
+      correctAnswer: "Dun"
     },
     {
-      question: "What Color is This",
-      image: "./US States/KS-Kansas.png",
+      question: "What Color is This?",
+      image:"./Colors/English Violet.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Kansas"
+      correctAnswer: "English Violet"
     },
     {
-      question: "What Color is This",
-      image: "./US States/KY-Kentucky.png",
+      question: "What Color is This?",
+      image:"./Colors/French Gray.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Kentucky"
+      correctAnswer: "French Gray"
     },
     {
-      question: "What Color is This",
-      image: "./US States/LA-Louisiana.png",
+      question: "What Color is This?",
+      image:"./Colors/Light Blue.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "French Gray", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Louisiana"
+      correctAnswer: "Light Blue"
     },
     {
-      question: "What Color is This",
-      image: "./US States/ME-Maine.png",
+      question: "What Color is This?",
+      image:"./Colors/Moonstone.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "French Gray", "Light Blue", "Payne's Gray", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Maine"
+      correctAnswer: "Moonstone"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MD-Maryland.png",
+      question: "What Color is This?",
+      image:"./Colors/Payne's Gray.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Puce", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Maryland"
+      correctAnswer: "Payne's Gray"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MA-Massachusetts.png",
+      question: "What Color is This?",
+      image:"./Colors/Puce.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Raisin Black", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Massachusetts"
+      correctAnswer: "Puce"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MI-Michigan.png",
+      question: "What Color is This?",
+      image:"./Colors/Raisin Black.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
-        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
+        "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", 
         "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Michigan"
+      correctAnswer: "Raisin Black"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MN-Minnesota.png",
+      question: "What Color is This?",
+      image:"./Colors/Salmon Pink.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
-        "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Minnesota"
+        "Space Cadet", "Wenge"],
+      correctAnswer: "Salmon Pink"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MS-Mississippi.png",
+      question: "What Color is This?",
+      image:"./Colors/Space Cadet.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
-        "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Mississippi"
+        "Salmon Pink", "Wenge"],
+      correctAnswer: "Space Cadet"
     },
     {
-      question: "What Color is This",
-      image: "./US States/MO-Missouri.png",
+      question: "What Color is This?",
+      image:"./Colors/Wenge.png",
       answers: ["Anti-Flash White", "Antique White", "Atomic Tangerine", "Black", "Byzantium", "Caput Mortuum", 
         "Charcoal", "Cinereous", "Columbia Blue", "Cool Gray", "Coquelicot", "Crimson", "Dark Green", "Dark Purple", 
         "Dun", "English Violet", "French Gray", "Light Blue", "Moonstone", "Payne's Gray", "Puce", "Raisin Black", 
-        "Salmon Pink", "Space Cadet", "Wenge"],
-      correctAnswer: "Missouri"
+        "Salmon Pink", "Space Cadet"],
+      correctAnswer: "Wenge"
     }
     
   ];
