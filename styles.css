@@ -4,7 +4,7 @@ body{
 font-size: 20px;
 font-family: "Kalam", cursive;
 font-weight: 400;
-font-style: normalt;
+font-style: normal;
 color: #333;
 text-align: center;
 background-color: #f8f6f0;
@@ -16,7 +16,6 @@ h1 {
 h2 {
   text-align: center;
 }
-
 .button {
   border: none;
   color: white;
@@ -29,35 +28,28 @@ h2 {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
 .button1 {
   background-color: #9723ba; 
   color: black; 
   border: 2px solid;
-  font-size: 20px;
 }
-
 .button1:hover {
   background-color: #270530;
   color: white;
 }
-
 .button2 {
   background-color: #de3e7d; 
   color: black; 
   border: 2px solid;
 }
-
 .button2:hover {
   background-color: #300516;
   color: white;
 }
-
 .container { 
   height: 500px;
   position: relative;
 }
-
 .center {
   margin: 0;
   position: absolute;
@@ -66,4 +58,3 @@ h2 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
