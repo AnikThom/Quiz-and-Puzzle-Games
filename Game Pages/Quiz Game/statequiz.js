@@ -312,7 +312,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "./US States/KY-Kentucky.png",
+      image: "./US States/LA-Louisiana.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -323,7 +323,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "./US States/KY-Kentucky.png",
+      image: "./US States/ME-Maine.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -334,7 +334,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "./US States/KY-Kentucky.png",
+      image: "./US States/MD-Maryland.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -345,7 +345,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/MA-Massachusetts.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -356,7 +356,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/MI-Michigan.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -367,7 +367,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/MD-Maryland.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -378,7 +378,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/MD-Maryland.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
