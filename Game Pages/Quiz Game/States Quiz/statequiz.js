@@ -8,7 +8,7 @@ function buildQuiz(){
 
     const shuffledQuestions = myQuestions.sort(() => Math.random() - 0.5);
 
-    selectedQuestions = shuffledQuestions.slice(0, 10);
+    selectedQuestions = shuffledQuestions.slice(0, 1);
 
     selectedQuestions.forEach((currentQuestion, questionNumber) => {
         const answers = [];
@@ -690,7 +690,7 @@ function buildQuiz(){
 });
 
 returnButton.addEventListener('click', function() {
-    window.location.href = "../quizgame.html";
+    window.location.href = "../../quizgame.html";
 });
   
   previousButton.addEventListener("click", showPreviousSlide);
