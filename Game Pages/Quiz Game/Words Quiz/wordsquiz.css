@@ -1,1 +1,60 @@
+h1 {
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  padding: 8px 16px;
+  background-color: #de3e7d;
+}
+
+a {
+  color: white;
+}
+
+a: visited {
+  color: white;
+}
+
+a:hover {
+  color: #300516;
+}
+
+table {
+  width: 100%
+}
+
+tr {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+table.center {
+  margin-top: auto;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 400px;
+  height: 500px;
+  object-fit: contain;
+}
 
