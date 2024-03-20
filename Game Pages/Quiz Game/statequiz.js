@@ -123,7 +123,7 @@ function buildQuiz(){
   const myQuestions = [
     {
       question: "Which State is this?",
-      image:"USA_Map.png",
+      image:"./US States/AL-Alabama.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -134,7 +134,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image:"USA_Map.png",
+      image:"./US States/AK-Arizona.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -146,7 +146,7 @@ function buildQuiz(){
 
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/AR-Arkansas.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -157,7 +157,7 @@ function buildQuiz(){
     },
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/AK-Alaska.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
@@ -169,7 +169,7 @@ function buildQuiz(){
         
     {
       question: "Which State is this?",
-      image: "USA_Map.png",
+      image: "./US States/CA-California.png",
       answers: ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
       "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
       "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", 
