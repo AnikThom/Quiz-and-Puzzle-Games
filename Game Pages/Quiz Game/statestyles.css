@@ -29,8 +29,8 @@ h1{
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 300px;
+  width: 50px;
+  height: 100px;
   object-fit: contain;
 }
 
