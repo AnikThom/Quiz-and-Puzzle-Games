@@ -122,7 +122,7 @@ input[type="radio"]{
   position: relative;
   top: 250px;
   width: 600px;
-  height: 75px;
+  height: 100px;
   cursor: pointer;
   margin-left: 100px;
   border-radius: 15px;
@@ -167,7 +167,7 @@ input[type="radio"]:checked ~ span:first-of-type {
 label span:first-of-type {
 
   position: relative;
-  font-size: 17px;
+  font-size: 10px;
   color: #1FBED6;
 }
 
