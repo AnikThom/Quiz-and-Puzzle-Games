@@ -173,5 +173,5 @@ label span:first-of-type {
 label span {
   position: absolute;
   top: 273px;
-  right: 815px;
+  right: -815px;
 }
