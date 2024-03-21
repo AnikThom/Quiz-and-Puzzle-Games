@@ -37,7 +37,6 @@ max-width: 100%;
 .answers {
   margin-bottom: 20px;
   text-align: center;
-  white-space: nowrap;
   display: grid;
   grid-template-columns: auto auto;
   min-height: 0;
