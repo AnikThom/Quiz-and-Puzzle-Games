@@ -123,7 +123,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/adumbrate.png",
-      answers: ["</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -134,7 +134,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/aristarch.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -146,7 +146,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/chiliomb.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -163,13 +163,13 @@ function buildQuiz(){
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
                 "</br>a stem without leaves", "the description of arts and crafts      </br>especially with reference to their     </br>ethnic distribution and historical development     ", "</br>regularly dividing by fours", 
                 "</br>used to express surprise or anger"],
-      correctAnswer: "a guiding belief or principle"
+      correctAnswer: "</br>a guiding belief or principle"
         },
         
     {
       question: "What is the Definition of This Word?",
       image:"./Words/declinometer.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -180,7 +180,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/deictic.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -191,7 +191,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/dissimulate.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -202,7 +202,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/effleurage.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -213,7 +213,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/intergrade.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -224,7 +224,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/istle.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -235,7 +235,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/itis.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -246,7 +246,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/mutualism.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -257,7 +257,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/olfactology.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -268,7 +268,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/orarian.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -279,7 +279,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/otarine.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a property affecting the </br>sense of taste", 
@@ -290,7 +290,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/sapor.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals",
@@ -301,7 +301,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/scapiform.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -312,7 +312,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/technography.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -323,7 +323,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/tetrachotomous.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
@@ -334,7 +334,7 @@ function buildQuiz(){
     {
       question: "What is the Definition of This Word?",
       image:"./Words/zounds.png",
-      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
+      answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
                 "</br>showing or pointing out directly", "</br>to hide under a false appearance", "</br>a light stroking movement </br>used in massage", "to merge gradually one with     </br>another through a continuous series of    </br>intermediate forms     ", 
                 "</br>a strong fiber obtained from various </br>tropical American plants", "</br>disease or inflammation", "the doctrine or practice of mutual     </br>dependence as the condition of individual      </br>and social welfare      ", 
                 "</br>the scientific study of smells or of </br>the sense of smell", "</br>a person who lives on the coast", "</br>a family of Pinnipedia consisting </br>of the eared seals", "</br>a property affecting the </br>sense of taste", 
