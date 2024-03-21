@@ -120,7 +120,7 @@ button:hover{
 
 input[type="radio"]{
   position: relative;
-  bottom: 225px;
+  bottom: 100px;
   width: 600px;
   height: 150px;
   cursor: pointer;
