@@ -120,9 +120,9 @@ button:hover{
 
 input[type="radio"]{
   position: relative;
-  top: 250px;
+  top: 225px;
   width: 600px;
-  height: 100px;
+  height: 150px;
   cursor: pointer;
   margin-left: 100px;
   border-radius: 15px;
@@ -167,7 +167,7 @@ input[type="radio"]:checked ~ span:first-of-type {
 label span:first-of-type {
 
   position: relative;
-  font-size: 10px;
+  font-size: 13px;
   color: #1FBED6;
 }
 
