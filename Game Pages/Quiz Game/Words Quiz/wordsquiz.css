@@ -44,6 +44,7 @@ max-width: 100%;
 .answers label{
   display: grid;
   text-align: center;
+white-space: nowrap;
   grid-template-columns: auto auto;
   min-height: 0;
   min-width: 0;
