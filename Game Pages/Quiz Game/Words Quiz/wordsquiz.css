@@ -37,6 +37,7 @@ max-width: 100%;
 .answers {
   margin-bottom: 20px;
   text-align: center;
+text-wrap: wrap;
   display: grid;
   grid-template-columns: auto auto;
   min-height: 0;
@@ -166,7 +167,7 @@ input[type="radio"]:checked ~ span:first-of-type {
 label span:first-of-type {
 
   position: relative;
-  font-size: 30px;
+  font-size: 20px;
   color: #1FBED6;
 top: 273px;
   right: 815px;
