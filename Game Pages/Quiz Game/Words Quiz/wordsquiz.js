@@ -1,4 +1,4 @@
-(function(){</br>
+(function(){
 let selectedQuestions;
 let numCorrect = 0;
 
