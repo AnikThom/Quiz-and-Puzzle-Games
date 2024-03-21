@@ -139,6 +139,7 @@ input[type="radio"]:checked {
 input[type="radio"]:checked ~ span:first-of-type {
   color: white;
 }
+
 label span:first-of-type {
   position: relative;
   font-size: 30px;
@@ -147,5 +148,5 @@ label span:first-of-type {
 label span {
   position: relative;
   top: 273px;
-  right: 815px;
+  right: 615px;
 }
