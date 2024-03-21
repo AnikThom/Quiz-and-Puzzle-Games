@@ -36,12 +36,7 @@ max-width: 100%;
 
 .answers {
   margin-bottom: 20px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
   text-align: center;
-  text-wrap: wrap;
   display: grid;
   grid-template-columns: auto auto;
   min-height: 0;
@@ -179,6 +174,10 @@ top: 273px;
 
 label span {
   position: relative;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
   top: 273px;
-  right: 415px;
+  right: 215px;
 }
