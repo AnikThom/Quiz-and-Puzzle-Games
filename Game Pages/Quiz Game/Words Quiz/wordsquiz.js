@@ -288,8 +288,6 @@ function buildQuiz(){
       correctAnswer: "</br>a stem without leaves"
     },
     {
-    },
-    {
       question: "What is the Definition of This Word?",
       image:"./Words/tetrachotomous.png",
       answers: ["</br>to foreshadow vaguely", "</br>a severe critic", "</br>a sacrifice of a thousand", "</br>a guiding belief or principle", "</br>an instrument for measuring </br>magnetic declination", 
