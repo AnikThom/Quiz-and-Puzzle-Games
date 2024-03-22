@@ -65,12 +65,11 @@ table.center {
   box-sizing: border-box;
 }
 
-img {
+.img {
   width: 400px;
   height: 500px;
   object-fit: contain;
 }
-img:hover
-{
+.img: hover{
   opacity: 0.3;
 }
