@@ -5,9 +5,9 @@ body{
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;
-  color: #333;
+  color: #270530;
   text-align: center;
-  background-color: #9723ba;
+  background-color: #f8f6f0;
 }
 h1{
   font-weight: 300;
@@ -15,7 +15,7 @@ h1{
   padding: 10px;
   font-size: 20px;
   background-color: #9723ba;
-  color: #fff;
+  color: #270530;
 }
 .question{
   font-size: 30px;
@@ -54,11 +54,14 @@ h1{
   margin-left: 0px;
   margin-right: 0px;
 }
+
+
+
 button{
   font-family: 'Work Sans', sans-serif;	
   font-size: 22px;
   background-color: #9723ba;
-  color: black;
+  color: white;
   border: 0px;
   border-radius: 3px;
   padding: 20px;
@@ -69,7 +72,6 @@ button{
 button:hover{
 
   background-color: #270530;
-  color: white;
 
 }
 
@@ -135,6 +137,7 @@ input[type="radio"]{
   -moz-appearance: none;
 }
 
+
 input[type="radio"]:focus {
 
   outline: none;
@@ -154,7 +157,7 @@ label span:first-of-type {
 
   position: relative;
   font-size: 25px;
-  color: #1FBED6;
+  color: white;
 }
 
 label span {
@@ -163,3 +166,4 @@ label span {
   top: -100px;
   right: 0px;
 }
+
