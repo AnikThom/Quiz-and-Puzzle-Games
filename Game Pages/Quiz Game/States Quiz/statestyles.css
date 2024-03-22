@@ -126,8 +126,8 @@ input[type="radio"]{
   cursor: pointer;
   margin-left: 100px;
   border-radius: 15px;
-  border: 2px solid #1FBED6;
-  background-color: white;
+  border: 2px solid #270530;
+  background-color: #9723ba;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
