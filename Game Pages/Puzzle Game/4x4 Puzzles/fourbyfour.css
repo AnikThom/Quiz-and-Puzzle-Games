@@ -39,6 +39,7 @@ a:hover {
   color: #270530;
 }
 
+
 #puzzle-board {
     position: relative;
     width: 327px;
@@ -49,7 +50,7 @@ a:hover {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    top: -150px;
+    top: -275px;
     left: 50%;
     transform: translate(-50%, -50%);
      
@@ -63,7 +64,7 @@ a:hover {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
-    top: 550px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -118,6 +119,7 @@ a:hover {
     z-index: 9998;
 }
 #shuffleButton{
+  font-family: "Kalam", cursive;
   position: relative;
   font-size: 22px;
   background-color: #9723ba;
@@ -126,8 +128,8 @@ a:hover {
   border-radius: 3px;
   padding: 20px;
   cursor: pointer;
-  top: -30px;
-  left: 75%;
+  left: 450px;
+  bottom: 190px;
 
 }
 
@@ -136,6 +138,7 @@ a:hover {
     background-color: #270530;
 }
 select {
+  font-family: "Kalam", cursive;
   font-size: 22px;
   background-color: #9723ba;
   color: white;
@@ -144,8 +147,8 @@ select {
   padding: 20px;
   cursor: pointer;
   position: relative;
-  top: 50px;
-  left: 25%;
+  top: 5px;
+  right: 15%;
   transform: translate(-50%, -50%);
 
 }
