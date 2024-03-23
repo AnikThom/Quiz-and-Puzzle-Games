@@ -10,6 +10,36 @@ text-align: center;
 background-color: #f8f6f0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  padding: 8px 16px;
+  background-color: #9723ba;
+}
+
+a {
+  color: white;
+}
+
+a: visited {
+  color: white;
+}
+
+a:hover {
+  color: #270530;
+}
+
 #puzzle-board {
     position: relative;
     width: 337px;
