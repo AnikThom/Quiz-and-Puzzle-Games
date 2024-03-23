@@ -109,7 +109,7 @@ document.getElementById('shuffleButton').addEventListener('click', shufflePieces
         overlay.style.display = 'inline-block';
         button.textContent = 'Congratulations! Click here to continue';
         button.addEventListener('click', function () {
-            window.location.href = 'page.html';
+            window.location.href = '../puzzlegame.html';
         });
 
         document.body.appendChild(button);
