@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+
+body{
+font-size: 20px;
+font-family: "Kalam", cursive;
+font-weight: 400;
+font-style: normal;
+color: #333;
+text-align: center;
+background-color: #f8f6f0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -77,6 +89,7 @@ a:hover {
     }
 
  #button{
+  font-family: "Kalam", cursive;
   font-size: 22px;
   background-color: #9723ba;
   color: white;
