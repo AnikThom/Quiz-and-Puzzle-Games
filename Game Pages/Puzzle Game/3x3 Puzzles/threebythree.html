@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drag and Drop Puzzle</title>
-  <link rel="stylesheet" href="puzzlegame.css">
+  <link rel="stylesheet" href="threebythree.css">
 </head>
 <body>
       <select id="imageSelector">
-        <option class="image-option" value="Dictionary.png">Dictionary</option>
         <option class="image-option" value="Penguin3x3.jpg">Penguin</option>
         <option class="image-option" value="Wave3x3.jpg">Wave</option>
         <option class="image-option" value="T-Roy3x3.jpg">T-Roy</option>
     </select>
-<img src="Dictionary.png" id="image">
+<img src="Penguin3x3.jpg.png" id="image">
 <div id="piece-board" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <div id="puzzle-board"></div>
 
 <button id="button" style="display: none;"></button>
 <button id="shuffleButton">Shuffle Pieces</button>
 <div id="overlay" style="display: none;"></div>
-  <script type="text/javascript" src="puzzlegame.js"></script>
+  <script type="text/javascript" src="threebythree.js"></script>
 </body>
 </html>
