@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+
+
+body{
+font-size: 20px;
+font-family: "Kalam", cursive;
+font-weight: 400;
+font-style: normal;
+color: #333;
+text-align: center;
+background-color: #f8f6f0;
+}
+
 h1 {
   text-align:center;
 }
@@ -30,3 +43,42 @@ a: visited {
 a:hover {
   color: #270530;
 }
+
+table {
+  width: 100%
+}
+
+tr {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+table.center {
+  margin-top: auto;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+  object-fit: contain;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .img {
+  opacity: 0.3;
+}
+
