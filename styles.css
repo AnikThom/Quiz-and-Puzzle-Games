@@ -17,6 +17,7 @@ h2 {
   text-align: center;
 }
 .button {
+  font-family: "Kalam", cursive;
   border: none;
   color: white;
   padding: 64px 128px;
