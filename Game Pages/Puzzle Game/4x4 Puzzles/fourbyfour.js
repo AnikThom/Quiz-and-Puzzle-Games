@@ -21,9 +21,8 @@ function initializePuzzle() {
     const pieceBoard = document.getElementById('piece-board');
     const puzzleBoard = document.getElementById('puzzle-board');
 
-    // Check if there are already puzzle pieces present
     if (pieceBoard.children.length > 0) {
-        pieceBoard.innerHTML = ''; // Clear existing pieces
+        pieceBoard.innerHTML = '';
     }
 
     puzzleBoard.innerHTML = '';
@@ -39,7 +38,7 @@ function initializePuzzle() {
         const piece = document.createElement('div');
         piece.className = 'puzzle-piece';
         piece.draggable = true;
-        piece.style.backgroundImage = `url(${image.src})`; // Update background image URL
+        piece.style.backgroundImage = `url(${image.src})`;
         piece.style.backgroundSize = `${imgWidth}px ${imgHeight}px`;
         piece.style.backgroundPosition = `-${(i % 4) * pieceWidth}px -${Math.floor(i / 4) * pieceHeight}px`;
         piece.id = `piece${i}`;
@@ -51,7 +50,6 @@ function initializePuzzle() {
 
     pieces.forEach(piece => pieceBoard.appendChild(piece));
 
-    // Reattach event listeners to the new puzzle pieces
     pieces.forEach(piece => piece.addEventListener('dragstart', dragStart));
     pieces.forEach(piece => piece.addEventListener('dragover', allowDrop));
     pieces.forEach(piece => piece.addEventListener('drop', drop));
@@ -107,7 +105,7 @@ document.getElementById('shuffleButton').addEventListener('click', shufflePieces
     if (correctCount === 16) {
         button.style.display = 'inline-block';
         overlay.style.display = 'inline-block';
-        button.textContent = 'Congratulations! Click here to continue';
+        button.textContent = 'You Completed the Puzzle! Click Here to Return to Home!';
         button.addEventListener('click', function () {
             window.location.href = '../puzzlegame.html';
         });
