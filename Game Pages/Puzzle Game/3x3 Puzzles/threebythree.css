@@ -89,7 +89,22 @@
 
 }
 
+
 #shuffleButton:hover{
 
     background-color: #270530;
+}
+select {
+  font-size: 22px;
+  background-color: #9723ba;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
