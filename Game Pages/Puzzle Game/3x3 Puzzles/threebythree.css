@@ -24,7 +24,7 @@ li {
 li a {
   display: block;
   padding: 8px 16px;
-  background-color: #9723ba;
+  background-color: #de3e7d;
 }
 
 a {
@@ -36,7 +36,7 @@ a: visited {
 }
 
 a:hover {
-  color: #270530;
+  color: #300516;
 }
 
 
@@ -91,7 +91,7 @@ a:hover {
  #button{
   font-family: "Kalam", cursive;
   font-size: 22px;
-  background-color: #9723ba;
+  background-color: #de3e7d;
   color: white;
   border: 0px;
   border-radius: 3px;
@@ -105,7 +105,7 @@ a:hover {
 }
 #button:hover{
 
-  background-color: #270530;
+  background-color: #300516;
 
 }
 
