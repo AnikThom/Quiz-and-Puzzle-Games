@@ -21,9 +21,8 @@ function initializePuzzle() {
     const pieceBoard = document.getElementById('piece-board');
     const puzzleBoard = document.getElementById('puzzle-board');
 
-    // Check if there are already puzzle pieces present
     if (pieceBoard.children.length > 0) {
-        pieceBoard.innerHTML = ''; // Clear existing pieces
+        pieceBoard.innerHTML = '';
     }
 
     puzzleBoard.innerHTML = '';
@@ -39,7 +38,7 @@ function initializePuzzle() {
         const piece = document.createElement('div');
         piece.className = 'puzzle-piece';
         piece.draggable = true;
-        piece.style.backgroundImage = `url(${image.src})`; // Update background image URL
+        piece.style.backgroundImage = `url(${image.src})`;
         piece.style.backgroundSize = `${imgWidth}px ${imgHeight}px`;
         piece.style.backgroundPosition = `-${(i % 3) * pieceWidth}px -${Math.floor(i / 3) * pieceHeight}px`;
         piece.id = `piece${i}`;
