@@ -122,7 +122,7 @@ a:hover {
   font-family: "Kalam", cursive;
   position: relative;
   font-size: 22px;
-  background-color: #9723ba;
+  background-color: #de3e7d;
   color: white;
   border: 0px;
   border-radius: 3px;
@@ -135,12 +135,12 @@ a:hover {
 
 #shuffleButton:hover{
 
-    background-color: #270530;
+    background-color: #300516;
 }
 select {
   font-family: "Kalam", cursive;
   font-size: 22px;
-  background-color: #9723ba;
+  background-color: #de3e7d;
   color: white;
   border: 0px;
   border-radius: 3px;
