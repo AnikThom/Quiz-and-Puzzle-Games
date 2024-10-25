@@ -5,60 +5,63 @@ font-size: 20px;
 font-family: "Kalam", cursive;
 font-weight: 400;
 font-style: normal;
-color: #333;
+color: #11222B;
 text-align: center;
 background-image: linear-gradient(to left, rgba(151, 35, 186, 0.4), rgba(222, 62, 125, 0.4));
+overflow: hidden;
 }
 
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
 .button {
   font-family: "Kalam", cursive;
-  border: none;
   border-radius: 5px;
-  color: white;
+  color: #11222B;
+  margin-top: 15%;
   padding: 64px 128px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 32px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .button1 {
   background-color: #9723ba; 
-  color: black; 
   border: 2px solid;
-  border-radius: 5px;
 }
 .button1:hover {
   background-color: #270530;
   color: white;
 }
 .button2 {
-  background-color: #de3e7d; 
-  color: black; 
-  border-radius: 5px;
+  background-color: #de3e7d;
   border: 2px solid;
 }
 .button2:hover {
   background-color: #300516;
   color: white;
 }
-.container { 
-  height: 500px;
-  position: relative;
+
+.imgdisplay{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+
+.centerimg{
+  text-align: center;
+}
+
+.contacts{
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  color: white;
+  width: 45px;
+
+}
+
+
+.contactdisplay{
+  margin-top: 10%;
+  position: relative;
+  text-align: center;
 }
