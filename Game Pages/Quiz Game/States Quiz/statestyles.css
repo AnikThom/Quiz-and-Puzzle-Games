@@ -36,6 +36,11 @@ h2{
     position: relative;
 }
 
+a:hover{
+
+  color:#270530;
+}
+
 .question{
   font-size: 30px;
   margin-bottom: 100px;
