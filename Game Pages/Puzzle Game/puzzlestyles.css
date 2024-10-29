@@ -83,3 +83,22 @@ table.center {
   opacity: 0.3;
 }
 
+.centerimg{
+  text-align: center;
+}
+
+.contacts{
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  color: white;
+  width: 45px;
+
+}
+
+.contactdisplay{
+  margin-top: 10%;
+  position: relative;
+  text-align: center;
+}
+
