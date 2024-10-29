@@ -25,6 +25,7 @@ li a {
   display: block;
   padding: 8px 16px;
   border-radius: 5px;
+  border: 2px solid #300516;
   background-color: #de3e7d;
 }
 
@@ -93,6 +94,7 @@ a:hover {
   font-family: "Kalam", cursive;
   font-size: 22px;
   background-color: #de3e7d;
+  border: 2px solid #300516;
   color: white;
   border: 0px;
   border-radius: 3px;
@@ -124,6 +126,7 @@ a:hover {
   position: relative;
   font-size: 22px;
   background-color: #de3e7d;
+  border: 2px solid #300516;
   color: white;
   border: 0px;
   border-radius: 3px;
