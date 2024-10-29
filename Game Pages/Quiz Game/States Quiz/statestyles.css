@@ -52,7 +52,7 @@ li a {
   display: block;
   padding: 8px 16px;
   border-radius: 5px;
-  background-color: #de3e7d;
+  background-color: #9723ba;
 }
 
 a {
@@ -64,13 +64,10 @@ a:visited {
 }
 
 a:hover {
-  color: #300516;
+  color: #270530;
 }
 
 
-.hov:hover{
-  color:#270530;
-}
 
 .question{
   font-size: 30px;
