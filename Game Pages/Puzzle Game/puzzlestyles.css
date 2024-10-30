@@ -102,3 +102,15 @@ table.center {
   text-align: center;
 }
 
+.imgdisplay{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.imgfloat{
+  margin-top: 5%;
+  text-align: center;
+
+}
+
